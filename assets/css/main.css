@@ -3266,6 +3266,10 @@ input, select, textarea {
 			color: #ffffff;
 		} */
 
+		.inner>.gallery{
+			border: 4px solid white;
+			padding: 2%;
+		}
 
 
 			.wrapper.style5 strong, .wrapper.style5 b {
