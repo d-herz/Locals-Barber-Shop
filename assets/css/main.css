@@ -213,6 +213,15 @@ input, select, textarea {
 		text-transform: uppercase;
 	}
 
+	.services{
+		margin: 0;
+		text-decoration: underline;
+	}
+	.hours{
+		margin: 5% 0 2% 0;
+		text-decoration: underline;
+	}
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
@@ -2373,9 +2382,16 @@ input, select, textarea {
 /* Table */
 
 	.table-wrapper {
+		border: 4px solid white;
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
-		
+	}
+
+	.table-wrapper2 {
+		border: 4px solid white;
+		-webkit-overflow-scrolling: touch;
+		margin: 0 0 5% 0;
+		overflow-x: auto;
 	}
 
 	.table-wrapper-Home-Page {
@@ -2391,9 +2407,8 @@ input, select, textarea {
 
 	}
 
-
 	table {
-		margin: 0 0 2em 0;
+		margin: 1rem 0;
 		width: 100%;
 	}
 
@@ -2413,6 +2428,14 @@ input, select, textarea {
 
 		table .price {
 			color: #fff200;
+		}
+
+		table .desc {
+			font-style: italic;
+		}
+
+		table .item {
+			font-weight: normal;
 		}
 
 		table th {
@@ -3238,11 +3261,10 @@ input, select, textarea {
 			background-color: transparent;
 		}
 
-		.wrapper.style5 {
+		/* .wrapper.style5 {
 			background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(130,121,90,.5));
 			color: #ffffff;
-			/* text-shadow: 1px 1px 1px rgb(255, 254, 254); */
-		}
+		} */
 
 
 
@@ -3347,9 +3369,9 @@ input, select, textarea {
 				border-color: #dfdfdf;
 			}
 
-				.wrapper.style5 table tbody tr:nth-child(2n + 1) {
+				/* .wrapper.style5 table tbody tr:nth-child(2n + 1) {
 					background-color: rgba(0, 0, 0, 0.0375);
-				}
+				} */
 
 			.wrapper.style5 table th {
 				color: #e1e5f7;
@@ -3510,7 +3532,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7em;
 		}
 
@@ -3544,12 +3566,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #000000;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
 		top: 0;
+		text-shadow: 1px 1px 1px #ff6800;
 		width: 100%;
 		z-index: 10000;
 	}
