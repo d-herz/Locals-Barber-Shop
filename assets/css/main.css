@@ -2905,8 +2905,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background: linear-gradient(to bottom, rgba(130,121,90,0.9), black);
+			/* background: linear-gradient(to bottom, rgba(130,121,90,0.9), black); */
+			background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
 			color: #c8ece9;
+			border-radius: 10% 10% 0 0 ;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2938,7 +2940,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #d34f73ff;
+				color: rgb(255, 255, 255);
 			}
 
 			.wrapper.style1 label {
@@ -4056,10 +4058,11 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.99), rgba(0,0,0,0.85)), url("images/ShopFront.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.99), rgba(0,0,0,0.85)), url("images/ShopFront.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.99), rgba(0,0,0,0.85)), url("images/ShopFront.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.99), rgba(0,0,0,0.85)), url("images/ShopFront.jpg");
+		
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
