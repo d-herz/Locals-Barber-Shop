@@ -3433,7 +3433,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 1em 2em 1em 2em ;
 			}
 
 		}
@@ -3462,7 +3462,8 @@ input, select, textarea {
 			z-index: 10001;
 		}
 
-	#menu {
+		/* THIS IS WHERE YOU CHANGE THE COLOR OF EXPANDABLE MENU */
+	#menu { 
 		-moz-transform: translateX(20em);
 		-webkit-transform: translateX(20em);
 		-ms-transform: translateX(20em);
@@ -3472,7 +3473,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(130,121,90,.85);
+		background: rgba(0, 0, 0, 0.85);
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3545,7 +3546,7 @@ input, select, textarea {
 		}
 
 	body.is-menu-visible #page-wrapper {
-		opacity: 0.35;
+		opacity: 0.65;
 	}
 
 		body.is-menu-visible #page-wrapper:before {
@@ -3572,7 +3573,7 @@ input, select, textarea {
 		line-height: 3em;
 		position: fixed;
 		top: 0;
-		text-shadow: 1px 1px 1px #ff6800;
+		text-shadow: 0px 0px 4px #ff6800;
 		width: 100%;
 		z-index: 10000;
 	}
@@ -3936,11 +3937,11 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.75)), url("images/exterior.jpg");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.75)), url("images/exterior.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.75)), url("images/exterior.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.75)), url("images/exterior.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.75)), url("images/exterior.jpg");
-		background-attachment: fixed;
+		background-attachment: fixed; */
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3967,7 +3968,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 10em 0 8em 0 ;
+				padding: 5em 0 4em 0 ;
 			}
 
 		}
@@ -3991,12 +3992,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > header {
-				padding: 5em 3em 3em 3em ;
+				padding: 1.5em 3em 1.5em 3em ;
 			}
 
 				#main > header h2 {
 					font-size: 1.25em;
-					margin: 0 0 1em 0;
+					margin: 0 0 0 0;
 				}
 
 		}
@@ -4121,10 +4122,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url("images/exterior.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url("images/ShopFront.jpg");
 		background-attachment: scroll;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -4132,5 +4133,5 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: rgba(0, 0, 0, 0.9);
 	}
