@@ -2442,7 +2442,7 @@ input, select, textarea {
 			color: #fff;
 			font-size: 0.9em;
 			font-weight: 600;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 5em 0.75em 0.75em;
 			text-align: center;  /*dfh*/
 		}
 
@@ -3550,7 +3550,7 @@ input, select, textarea {
 		}
 
 	body.is-menu-visible #page-wrapper {
-		opacity: 0.75;
+		opacity: 0.35;
 	}
 
 		body.is-menu-visible #page-wrapper:before {
