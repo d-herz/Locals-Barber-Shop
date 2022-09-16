@@ -21,6 +21,11 @@ This site was ....
 </p>
 
 
+<p align="center">
+  <img src="https://github.com/d-herz/breaking-bad-quotes-client/blob/main/bb-readme.gif" alt="animated" />
+</p>
+
+
 
 <!----- <p align="center">
   <img src="https://github.com/d-herz/breaking-bad-quotes-client/blob/main/bb-readme.gif" alt="animated" />
