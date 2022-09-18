@@ -5,7 +5,7 @@
 
 <h3 align="left">About this project:</h3>
 <p align="left">
-This site was created for an established barber shop who wanted to update their web presence. It is a multipage site including a dynamic landing page, a 'Services and Hours' page, and a 'Gallery' page. Future updates are planned including adding scheduling implementation, a dynamic picture gallery, and a bio's page for each barber working in the shop.
+This site was created for an established barber shop who wanted to update their web presence. It is a multipage site including a dynamic landing page, a 'Services and Hours' page, and a 'Gallery' page. Future updates are planned including an interactive appointment scheduling implementation, a dynamic picture gallery, and a bio's page for each barber working in the shop.
 </p>
 
 <h3 align="left">Quick facts about this project:</h3>
@@ -13,7 +13,7 @@ This site was created for an established barber shop who wanted to update their 
 <ul>
 <li> Front-end coded with HTML5, CSS3, & JavaScript </li>
 <li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li>
-<li> Plan to include scheduling implementation in future update</li>
+<li> Future updates will include interactive appointment scheduling implementation </li>
 
 </ul>
 </p>
