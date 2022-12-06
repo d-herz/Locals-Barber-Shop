@@ -5,7 +5,7 @@
 
 <h3 align="left">About this project:</h3>
 <p align="left">
-This site was created for an established barber shop who wanted to update their web presence. It is a multipage site including a dynamic landing page, a 'Services and Hours' page, and a 'Gallery' page. Future updates are planned including an interactive appointment scheduling implementation, a dynamic picture gallery, and a bio's page for each barber working in the shop.
+This site was created for an established barber shop that was looking to update their online presence. It is a multipage site including a dynamic landing page, a 'Services and Hours' page, and a 'Gallery' page. Future updates are planned including an interactive appointment scheduling implementation, a dynamic picture gallery, and a 'bio' page for employees and staff.
 </p>
 
 <h3 align="left">Quick facts about this project:</h3>
