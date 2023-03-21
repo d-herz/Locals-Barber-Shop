@@ -1,7 +1,6 @@
-<h1 align="center"> Local's Barber Shop </h1>
 
-<h3 align="center"> A Barber Shop Website </h3>
-<h3 align="center"> <a href="https://locals-barber-shop.netlify.app/">Visit the live site</a></h3>
+<h1 align="center"><a href="https://locals-barber-shop.netlify.app/"> Local's Barber Shop </a> </h1>
+<h3 align="center"><a href="https://locals-barber-shop.netlify.app/"> A Barber Shop Website</a> </h3>
 
 <h3 align="left">About this project:</h3>
 <p align="left">
@@ -28,9 +27,9 @@ A responsive, static, multipage website created with an established barber shop 
 I've recently added:
 <ul>
 <li> Mobile Responsivity </li>
-<li> A price menu page </li>
-<li> A gallery page </li>
 <li> Mobile Specific Styling</li>
+<li> Price menu page </li>
+<li> Gallery page </li>
 </ul>
 </p>
 
