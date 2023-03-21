@@ -4,7 +4,7 @@
 
 <h3 align="left">About this project:</h3>
 <p align="left">
-A responsive, static, multipage website created with an established barber shop in mind. Featuring a dynamic landing page, a 'Services and Hours' page, a 'Gallery' page, and custom imagery throughout. Future updates planned to include an interactive appointment scheduling and a 'bio' page for employees and staff.
+A responsive, static, multipage website created with an established barber shop in mind. Featuring a dynamic landing page, a 'Services and Hours' page, a 'Gallery' page, and custom imagery throughout. Future update plans include an interactive appointment scheduling and a 'bio' page for employees and staff.
 </p>
 
 <h3 align="left">Quick facts about this project:</h3>
