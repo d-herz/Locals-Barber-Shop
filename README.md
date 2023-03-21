@@ -5,25 +5,22 @@
 
 <h3 align="left">About this project:</h3>
 <p align="left">
-This site was created for an established barber shop that was looking to update their online presence. It is a multipage site including a dynamic landing page, a 'Services and Hours' page, and a 'Gallery' page. Future updates are planned including an interactive appointment scheduling implementation, a dynamic picture gallery, and a 'bio' page for employees and staff.
+A responsive, static, multipage website created with an established barber shop in mind. Featuring a dynamic landing page, a 'Services and Hours' page, a 'Gallery' page, and custom imagery throughout. Future updates planned to include an interactive appointment scheduling and a 'bio' page for employees and staff.
 </p>
 
 <h3 align="left">Quick facts about this project:</h3>
 <p align="left">
 <ul>
-<li> Front-end coded with HTML5, CSS3, & JavaScript </li>
+<li> Built with HTML5, CSS3, & JavaScript </li>
 <li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li>
-<li> Future updates will include interactive appointment scheduling implementation </li>
+<li> Interactive appointment scheduling planned </li>
 
 </ul>
 </p>
 
-
 <p align="center">
   <img src="https://github.com/d-herz/Locals-Barber-Shop/blob/main/barber-readme.gif" alt="animated" />
 </p>
-
-
 
 
 <h3 align="left">Recent Updates:</h3>
@@ -33,9 +30,7 @@ I've recently added:
 <li> Mobile Responsivity </li>
 <li> A price menu page </li>
 <li> A gallery page </li>
-<li> Mobile Specific Styling </li>
-
-<!----- <li> </li> ---->
+<li> Mobile Specific Styling</li>
 </ul>
 </p>
 
